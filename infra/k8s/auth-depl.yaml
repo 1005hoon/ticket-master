@@ -8,7 +8,7 @@ spec:
   replicas: 1
   # 활용할 Pod 주소 설정
   selector:
-    matchLabel:
+    matchLabels:
       app: auth
   # Pod를 생성하는 방법 설명
   template:
