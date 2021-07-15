@@ -21,7 +21,7 @@ spec:
       containers:
         # 로깅용 이름
         - name: auth
-          image: ticketmaster/auth
+          image: us.gcr.io/ticket-master-319906/auth
 ---
 # Service 설정
 apiVersion: v1
